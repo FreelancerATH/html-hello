@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Feed de Instragram</title>
+    <!--Importando el framework de boostrap para el diseño de la página-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!--Importando mi hoja de estilos css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Div que contiene las cards del feed-->
+    <div class="container mt-4">
+        <!--Primera card-->
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center">
+                <!--Imagen de perfin-->
+                <img src="./img/icono_usuario.png" alt="Profile picture" class="rounded-circle" width="40" height="40">
+                <span class="ml-3 font-weight-bold">Antonio</span>
+                <span class="ml-auto text-muted">12/14</span>
+            </div>
+            <!--Imagen del feed-->
+            <img src="./img/perrito.jpg" class="card-img-top"  alt="Imagen del feed">
+            <div class="card-body">
+                <p class="card-text">Este es mi perrtio, esta muy bonito<span class="text-primary">#Pretty</span></p>
+            </div>
+        </div>
+        <!--Segunda card-->
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center">
+                <img src="./img/icono_usuario.png" alt="Profile picture" class="rounded-circle" width="40" height="40">
+                <span class="ml-3 font-weight-bold">Tobias</span>
+                <span class="ml-auto text-muted">12/14</span>
+            </div>
+            <img src="./img/pug.jpg" class="card-img-top" alt="Puppy photo"  >
+            <div class="card-body">
+                <p class="card-text">Mi perro ha montado la patineta que cool <span class="text-primary">#Cool</span></p>
+            </div>
+        </div>
+        <!--Tercer div-->
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center">
+                <img src="./img/icono_usuario.png" alt="Profile picture" class="rounded-circle" width="40" height="40">
+                <span class="ml-3 font-weight-bold">Juan</span>
+                <span class="ml-auto text-muted">12/14</span>
+            </div>
+            <img src="./img/programador.jpg" class="card-img-top" alt="Puppy photo">
+            <div class="card-body">
+                <p class="card-text">Desarrollando mi primer sitio web  <span class="text-primary">#Programing</span></p>
+            </div>
+        </div>
+        <!--Cuarto Div-->
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center">
+                <img src="./img/icono_usuario.png" alt="Profile picture" class="rounded-circle" width="40" height="40" >
+                <span class="ml-3 font-weight-bold">María</span>
+                <span class="ml-auto text-muted">12/14</span>
+            </div>
+            <img src="./img/spaguetti.jpg" class="card-img-top" alt="Puppy photo">
+            <div class="card-body">
+                <p class="card-text">Cocinando mi primer spaghetti  <span class="text-primary">#EAT</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

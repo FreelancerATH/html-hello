@@ -1,0 +1,20 @@
+body {
+    background-color: #fafafa;
+}
+
+.card {
+    border: 1px solid #dbdbdb;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-text .text-primary {
+    color: #3498db !important;
+}
